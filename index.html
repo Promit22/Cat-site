@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cats</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body onload="getImg()"><!--Body with onload event-->
+      <!--Tab to edit-->
+      <header id="header">
+        <!--Tab to edit-->
+       <h1 id="welcome">
+         Welcome to Paw Land. A place filled with cats
+       </h1>
+       <h3 id="ins">
+         Want to explore cats? Search your favourite breed or just explore
+       </h3>
+      </header>
+       <div class="rndCat">
+         <img src="" id="rndImg"alt="A random picture of a cat"/>
+       </div>
+       <div id="Info">
+         <h3>What makes it different from others?</h3>
+         <p id="infoText">
+           
+         </p>
+         <a id="link">Learn more about this cat on Wikipedia</a>
+       </div>
+       <div class="statistics">
+         <div class="statColumn">
+           <!--Tab to edit-->
+         <label for="affection">
+           Affection 
+         </label>
+         <meter id="affection" value="0" max="10">
+           <!--Tab to edit-->
+         </meter>
+         <label for="adaptability">
+           Adaptability 
+         </label>
+         <meter id="adaptability" value="0" max="10">
+           <!--Tab to edit-->
+         </meter>
+         <label for="intelligence">
+           Intelligence 
+         </label>
+         <meter id="intelligence" value="0" max="10">
+           <!--Tab to edit-->
+         </meter>
+          </div>
+       </div>
+       <p id="helper">
+         beng(bengal), abys(Abyssinian), abob(American Bobtail),
+          asho(American Shorthair), acur(American Curl), amau(Arabian Mau), amis(Austrilian Mist), birm(Birman), jbob(Japanese Bobtail), mala(Malayan), sfol(Scottish Fold) Etc.
+       </p>
+       <div id="search">
+         <input id="input" type="text" placeholder="Search breeds. e.g beng,abys,abob etc" onchange="findCat()"/>
+         <button id="submit" onclick="findCat()">
+           Search
+         </button>
+       </div></br></br></br>
+       <div id="searchResults">
+         <!--Tab to edit-->
+       </div>
+       <p class="explore ser">
+         Don't know what to search?
+       </p>
+       <h5 class="explore" onclick="loadCats()">
+         Click to explore Cats —>
+       </h5>
+       <div id="cats">
+         <!--Tab to edit-->
+       </div>
+       <footer>
+       <a href=https://thecatapi.com/>Visit ThecatApi</a>
+       </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
