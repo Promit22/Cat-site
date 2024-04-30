@@ -8,7 +8,7 @@ let adapt = document.getElementById('adaptability');
 let intelligent = document.getElementById('intelligence');
 let cats = document.getElementById('cats');
 let base_url = 'https://api.thecatapi.com/v1/images/search?';
-let apiKey = 'live_0GNo1gdJyt1dzjLKoez5uyfuQcIjvPj1ZZD0JSCsUFdsPu5KUhE3NigjE66mGHIf';
+let apiKey = 'Your api key';
 let input = document.getElementById('input');
 let searchResult = document.getElementById('searchResults');
 
