@@ -85,7 +85,7 @@ async function findCat() {
   }
 }
 
-//The code below will fetch some cats with information and display them if the user clicks the "clicl to explore" text
+//The code below will fetch some cats with information and display them if the user clicks the "click to explore" text
 
 let call = 0;
 
