@@ -159,7 +159,7 @@ meter {
   margin-left: 100%;
 }
 
-@media only screen and (min-width: 764px) {
+@media only screen and (min-width: 768px) {
   .rndCat, .exImgCon{
     margin-left: 20vw;
     margin-top: 10vh;
